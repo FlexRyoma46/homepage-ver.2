@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #fafafa;
+    color: #333;
+}
+
+.welcome-block {
+    text-align:center;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.photo-block{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.line1, .line2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.about-image {
+    width: 250px;
+    border-radius: 8px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+p {
+    max-width: 800px;
+    margin: 10px 20px;
+    line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+    .photo-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-image {
+        width: 200px;
+    }
+}
